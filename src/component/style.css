@@ -18,3 +18,12 @@
  {
      color: black;
  }
+ .day6
+ {
+    text-align: center;
+ }
+
+ .child_component{
+    widows: 5000px;
+    height:5000px;
+}

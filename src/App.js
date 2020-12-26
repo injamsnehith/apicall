@@ -1,6 +1,6 @@
 import "./App.css";
 import {BrowserRouter as Router, HashRouter, Switch , Route} from "react-router-dom";
-import tables from "./component/table";
+import day6 from "./component/day6"
 
 function App(){
     return (
@@ -8,7 +8,7 @@ function App(){
       <HashRouter>
         <Switch>
           
-          <Route path="/" exact component={tables}/>
+          <Route path="/" exact component={day6}/>
           {/* <Route component={Error} /> */}
           </Switch>
       </HashRouter>
